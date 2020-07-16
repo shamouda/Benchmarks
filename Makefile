@@ -15,7 +15,7 @@ clean:
 	${REBAR} clean
 
 runbench:
-	_build/default/bin/basho_bench examples/antidote_pb.config
+	_build/default/bin/basho_bench examples/gpac.config
 
 results:
 	Rscript --vanilla priv/summary.r -i tests/current
